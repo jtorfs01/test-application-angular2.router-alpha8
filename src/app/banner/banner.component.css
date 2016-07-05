@@ -1,0 +1,117 @@
+.site-content{
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  text-align: center;
+  background-image: url('images/family.jpg');
+  color:white;
+}
+
+/*@media (min-width: 768px) {
+.site-content{
+  height: 600px;
+  top:0;
+  position:relative;
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+  background-image: url('images/family.jpg');
+  color:white;
+    }
+}*/
+
+.newsletter{
+    margin-top: 15%;
+}
+
+.coming-soon {
+    margin-bottom: 9px;
+}
+
+
+
+.page-title{
+  color:white;
+  font-size:35px;
+  font-weight:bold;
+  font-family: 'Source Code Pro';
+  margin-top:35%;
+}
+
+.entry-subtitle {
+  display: block;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+
+/* margin-top: -3px;
+ font-family: 'Source Code Pro';*/
+}
+
+
+@media (min-width: 768px){
+.page-title{
+  color:white;
+  font-size:48px;
+  font-weight:bold;
+  font-family: 'Source Code Pro';
+  margin-top:15%;
+}
+
+.entry-subtitle {
+  line-height: 72px;
+  display: block;
+  font-size: 60px;
+  font-weight: 300;
+  text-align: center;
+
+/* margin-top: -3px;
+ font-family: 'Source Code Pro';*/
+}
+}
+
+.search-form{
+ font-size:16px;
+ height: 51px;
+ color:#484848;
+ width:100%;
+ border-radius: 4px;
+ border: 0;
+ text-align:center;
+}
+
+.search-field {
+ top:0;
+ width: auto;
+ color:#484848;
+ border:0;
+ border-radius: 4px;
+ height: 51px;
+ font-size: 16px;
+ padding: 12px 25px;
+ text-align: left;
+ margin-bottom: 10%;
+
+}
+
+.search-submit{
+ color:white;
+ background-color:#0099b0;
+ border:0;
+ border-radius: 4px;
+ height: 51px;
+ font-size:16px;
+ margin-left:20px;
+ padding: 12px 25px;
+ font-weight: 400;
+ font-weight: 400;
+ width:170px;
+}
+
+.search-submit:hover{
+ background-color: #484848;
+}
+
+
+
+

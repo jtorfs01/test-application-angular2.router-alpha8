@@ -10,11 +10,23 @@
   {{/unless}}
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <!-- Link css bootstrap stylesheets -->
+   <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link href="http://getbootstrap.com/dist/css/bootstrap.css" rel="stylesheet">
+  
+  <!--<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.theme.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.theme.min.css">-->
+
+  <!-- Link js bootstrap
+  <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script> 
+  <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script> 
+  -->
 </head>
 <body>
   <app-root>Loading...</app-root>
-
-  
 
     {{#each scripts.polyfills}}
     <script src="{{.}}"></script>

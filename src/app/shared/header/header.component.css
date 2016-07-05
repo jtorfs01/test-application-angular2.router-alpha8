@@ -1,0 +1,52 @@
+.site-header {
+  top: 0;
+  position: absolute;
+  width: 100%;
+  background: transparent;
+  border-bottom: 0;
+  height: 61px;
+  display: block;
+  z-index: 1;
+  padding: 4px 20px;
+}
+
+.site-header a {
+  color:white;
+  font-family:Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  display: block;
+
+}
+
+.organize-event{
+  background-color: inherit;
+  float:right;
+  border:white solid 1px;
+  padding: 5px;
+  font-weight: normal;
+  position: relative;
+  top: -2px;
+  display: block;
+  margin-top: 10px;
+}
+
+.left{
+  float:left;
+  padding: 2%;
+}
+.right{
+  float:right;
+  margin-left: 3%;
+}
+
+.create-account {
+   padding-top: 15px;
+}
+
+.login {
+  padding-top: 15px;
+}
+
+.branding {
+   padding-top: 15px;
+}
