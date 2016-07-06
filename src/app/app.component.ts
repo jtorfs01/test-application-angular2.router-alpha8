@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { HeaderComponent } from './shared/header/header.component';
 import { BannerComponent } from './banner/banner.component';
 import { HowItWorksComponent } from './how-it-works/how-it-works.component';
+import { ROUTER_DIRECTIVES } from '@angular/router';
 
 @Component({
   moduleId: module.id,
@@ -11,7 +12,8 @@ import { HowItWorksComponent } from './how-it-works/how-it-works.component';
   directives: [
     HeaderComponent,
     BannerComponent,
-    HowItWorksComponent
+    HowItWorksComponent,
+    ROUTER_DIRECTIVES
   ]
 })
 export class AppComponent {
